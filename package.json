@@ -1,0 +1,19 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start" : "node --watch ./src/controller/index.js",
+    "sass": "sass --watch ./src/public/css:./src/public/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.3",
+    "sass": "^1.77.5"
+  }
+}

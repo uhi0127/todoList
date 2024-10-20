@@ -1,0 +1,2695 @@
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:25 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:26 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: connect ECONNREFUSED 221.153.170.72:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16)
+    --------------------
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Routers.handleDisconnect (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at Routers.on (file:///volume1/web/todoList/src/controller/Routers.mjs:38:18)
+    at file:///volume1/web/todoList/src/controller/Routers.mjs:83:9
+    at ModuleJob.run (node:internal/modules/esm/module_job:217:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:316:24)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:431:15) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '221.153.170.72',
+  port: 3306,
+  fatal: true
+}
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:27 +09:00: error when connecting to db: Error: Cannot enqueue Handshake after fatal error.
+    at Protocol._validateEnqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Protocol.handshake (/volume1/web/todoList/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at Connection.connect (/volume1/web/todoList/node_modules/mysql/lib/Connection.js:116:18)
+    at Timeout.handleDisconnect [as _onTimeout] (file:///volume1/web/todoList/src/controller/Routers.mjs:19:15)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  code: 'PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR',
+  fatal: false
+}
+2024-07-21 09:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:28 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:28 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:29 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:29 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:31 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:31 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:32 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:32 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:34 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:34 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:35 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:35 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:37 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:37 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:38 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:38 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:40 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:40 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:42 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:42 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:43 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:43 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:45 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:45 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:46 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:46 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:48 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:48 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:49 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:49 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:51 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 09:51 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 18:57 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 18:58 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 19:11 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 19:11 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 19:13 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 19:14 +09:00: 33134 포트 현재 실행중~~~
+2024-07-21 19:14 +09:00: 33134 포트 현재 실행중~~~
+2024-07-24 11:43 +09:00: 33134 포트 현재 실행중~~~
+2024-07-24 11:43 +09:00: 33134 포트 현재 실행중~~~
+2024-07-24 11:43 +09:00: Connect OK
+2024-07-24 11:43 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 11:43 +09:00: ===================================
+2024-07-24 11:43 +09:00: Connect OK
+2024-07-24 11:43 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 11:43 +09:00: ===================================
+2024-07-24 11:44 +09:00: Connect OK
+2024-07-24 11:44 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 11:44 +09:00: ===================================
+2024-07-24 11:46 +09:00: Connect OK
+2024-07-24 11:46 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 11:46 +09:00: ===================================
+2024-07-24 11:54 +09:00: Connect OK
+2024-07-24 11:54 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 11:54 +09:00: ===================================
+2024-07-24 11:57 +09:00: Connect OK
+2024-07-24 11:57 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 11:57 +09:00: ===================================
+2024-07-24 11:58 +09:00: Connect OK
+2024-07-24 11:58 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 11:58 +09:00: ===================================
+2024-07-24 12:07 +09:00: Connect OK
+2024-07-24 12:07 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 12:07 +09:00: ===================================
+2024-07-24 12:18 +09:00: Connect OK
+2024-07-24 12:18 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 12:18 +09:00: ===================================
+2024-07-24 13:20 +09:00: Connect OK
+2024-07-24 13:20 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 13:20 +09:00: ===================================
+2024-07-24 14:41 +09:00: Connect OK
+2024-07-24 14:41 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 14:41 +09:00: ===================================
+2024-07-24 15:02 +09:00: Connect OK
+2024-07-24 15:02 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 15:02 +09:00: ===================================
+2024-07-24 15:10 +09:00: Connect OK
+2024-07-24 15:10 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 15:10 +09:00: ===================================
+2024-07-24 16:45 +09:00: Connect OK
+2024-07-24 16:45 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 16:45 +09:00: ===================================
+2024-07-24 17:21 +09:00: Connect OK
+2024-07-24 17:21 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 17:21 +09:00: ===================================
+2024-07-24 18:17 +09:00: Connect OK
+2024-07-24 18:17 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 18:17 +09:00: ===================================
+2024-07-24 19:02 +09:00: Connect OK
+2024-07-24 19:02 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 19:02 +09:00: ===================================
+2024-07-24 20:27 +09:00: Connect OK
+2024-07-24 20:27 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 20:27 +09:00: ===================================
+2024-07-24 21:31 +09:00: Connect OK
+2024-07-24 21:31 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-24 21:31 +09:00: ===================================

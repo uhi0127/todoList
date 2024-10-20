@@ -1,0 +1,20 @@
+{
+  "apps" : [
+    {
+      "script"    : "./src/controller/index.js",
+      "name" : "todolist",
+      "instances" : "max",
+      "autorestart": true,
+      "watch": true,
+      "ignore_watch": ["node_modules", "logs"],
+      "exec_mode" : "cluster",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "max_memory_restart": "1G",
+      "out_file": "./logs/app.out.log",
+      "error_file": "./logs/app.err.log",
+      "merge_logs": true,
+      "wait_ready": true,
+      "listen_timeout": 50000
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+#select_header.select_header
+   label#select_header_value_container.selected_value_container
+      input(type="checkbox")#select_header_value_CheckBox.selected_value_CheckBox
+      span#select_header_value.selected_value registered Category
+
+   #select_header_options.options
+      .option: button.categoryValue.alls(type="button") ALL
+      for cate in data.category
+         .option
+            button.categoryValue(type="button")= cate.category

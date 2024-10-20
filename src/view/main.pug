@@ -1,0 +1,54 @@
+doctype html
+html(lang="ko")
+   head
+      meta(charset="UTF-8")
+      link(rel="stylesheet", href="./css/main.css")
+      title TODOLIST
+   body
+      #todos_root
+         header#todos_header.todos_header
+            h1.todos_h1 TODOLIST 
+            form#categories.categories(action="/",method="POST")
+               input#input_category.input_category(type="text",name="input_category", required)
+               .category_btns_container
+                  include ./select_header.pug
+                  button#add_cate_btns.add_cate_btns 추가
+         
+         main#todos_main.todos_main
+            ul#todos_UL.todos_UL
+               li.todos_list.todos_list_headers
+                  span.list_number NO&#46;
+                  span.list_category 카테고리
+                  span.list_content 내용
+                  span.list_time 일정 시간
+
+               for result in data.contents
+                  li.todos_list
+                     p.list_number #{result.id}
+                     p.list_category #{result.category}
+                     p.list_content #{result.content}
+                     p.list_time 
+                        span #{result.times_from}
+                        span ~
+                        span #{result.times_to}
+                     ul.list_btn
+                        li: button.btn.viewBtn#viewBtn(title="상세보기")
+                        li: button.btn.editBtn#editBtn(title="편집")
+                        li: button.btn.removeBtn#removeBtn(title="제거")
+                        
+         form#todos_input_container.todos_input_container(action="/",method="POST")
+            button#addList_btn.addList_btn plus
+            #todos_input_inner.todos_input_inner
+               include ./select_bottom.pug
+
+               #todos_input_content_container.todos_input_content_container
+                  input#todos_input_content.todos_input_content(type="text",name="todos_input_content",placeholder="일정내용",required)
+
+               #todos_input_time_container.todos_input_time_container
+                  input#todos_input_time_from.todos_input_time_from(type="date",name="todos_input_time_from",required)
+                  span &#126;
+                  input#todos_input_time_to.todos_input_time_to(type="date",name="todos_input_time_to",required)
+                  
+
+      script(src="./js/main.js")
+

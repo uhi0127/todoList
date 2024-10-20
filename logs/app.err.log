@@ -1,0 +1,23 @@
+2024-07-29 21:51 +09:00: Error: connect ETIMEDOUT
+    at Connection._handleConnectTimeout (C:\Users\zxc26\Desktop\project\todoList\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (node:events:632:28)
+    at Socket.emit (node:events:518:28)
+    at Socket._onTimeout (node:net:589:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\zxc26\Desktop\project\todoList\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\zxc26\Desktop\project\todoList\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\zxc26\Desktop\project\todoList\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\zxc26\Desktop\project\todoList\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\zxc26\Desktop\project\todoList\node_modules\mysql\lib\Pool.js:202:8)
+    at file:///C:/Users/zxc26/Desktop/project/todoList/src/controller/Routers.mjs:25:18
+    at new Promise (<anonymous>)
+    at Routers.query (file:///C:/Users/zxc26/Desktop/project/todoList/src/controller/Routers.mjs:24:14)
+    at file:///C:/Users/zxc26/Desktop/project/todoList/src/controller/Routers.mjs:39:49
+    at Layer.handle [as handle_request] (C:\Users\zxc26\Desktop\project\todoList\node_modules\express\lib\router\layer.js:95:5) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}

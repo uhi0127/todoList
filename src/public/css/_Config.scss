@@ -1,0 +1,129 @@
+@font-face {
+   font: {
+      family: 'Pretendard-Regular';
+      weight: 400;
+      style: normal;
+   }
+   src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
+
+$bg_color:#F7EEDD;
+$defaultFontColor:#333333;
+
+@mixin buttonPadding(){
+   padding:8px;
+   padding-left:15px;
+}
+
+@mixin button_text_center(){
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   background: {
+      color:transparent;
+   };
+   border-radius:5px;
+   cursor:pointer;
+}
+
+@mixin text_ellipsis(){
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+@mixin selectCategory( $headerOrBottom ){
+   width:250px;
+   height:unset;
+   position:relative;
+
+   & .selected_value_container{
+      width:inherit;
+      height:100%;
+      display:block;
+      box-sizing:border-box;
+      &:has(.selected_value_CheckBox:checked) ~ .options{
+         height:150px;
+      }
+
+      & .selected_value_CheckBox{
+         width:100%;
+         height:35px;
+         appearance:none;
+         display:none;
+      }
+
+      @include buttonPadding();
+      background: {
+         color:slateblue;
+      }
+      color:white;
+      border-radius:5px;
+      cursor:pointer;
+   }
+
+   & .options{
+      @if ( $headerOrBottom == "header" ){
+         top:40px;
+         flex-direction:column;
+      } @else {
+         bottom:40px;
+         flex-direction:column-reverse;
+      }
+      
+      width:inherit;
+      height:0;
+      position:absolute;
+      left:0;
+      overflow:auto;
+      display:flex;
+      transition:all .2s;
+      border-radius:5px;
+      
+      & .option{
+         width:inherit;
+         height:35px;
+         & .categoryValue{
+            @include buttonPadding();
+            width:100%; 
+            height:100%;
+            background: {
+               color:hotpink;
+            }
+            font: {
+               weight:600;
+               size:1.1rem;
+            }
+            color:white;
+            text-align:left;
+            cursor:pointer;
+            &:hover{
+               background: {
+                  color:lightpink;
+               }
+               color:lighten(#000,30%);
+            }
+
+            &.focused{
+               background: {
+                  color:red;
+               }
+               color:white;
+            }
+         }
+      }
+   }
+}
+
+@mixin list_category_common_style(){
+   content:"";
+   width:2px;
+   height:100%;
+   position:absolute;
+   bottom:0;
+   top:0;
+   transform:translateX(-50%);
+   background: {
+      color:red;
+   }
+}

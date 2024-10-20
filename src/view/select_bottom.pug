@@ -1,0 +1,10 @@
+#select_bottom.select_bottom
+   label#select_bottom_value_container.selected_value_container
+      input(type="checkbox")#select_bottom_value_CheckBox.selected_value_CheckBox
+      span#select_bottom_value.selected_value Select Category
+
+   #select_bottom_options.options
+      .option: button.categoryValue.alls(type="button") ALL
+      for cate in data.category
+         .option
+            button.categoryValue(type="button")= cate.category

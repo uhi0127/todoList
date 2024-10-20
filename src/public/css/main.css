@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+@font-face {
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+}
+body, header, main, footer, nav, section, div, p, aside, article, a, img, h1, h2, h3, h4, h5, h6, address, form, fieldset, legend, input, button, select, option, textarea, table, tbody, thead, tfoot, caption, th, td, ol, ul, li, dl, dt, dd, figure, figcaption, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+address, em, i {
+  font-style: normal;
+}
+
+button, fieldset, select, input {
+  border: 0;
+}
+
+legend, caption, hr {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#todos_root .todos_header .categories .category_btns_container .select_header {
+  width: 250px;
+  height: unset;
+  position: relative;
+}
+#todos_root .todos_header .categories .category_btns_container .select_header .selected_value_container {
+  width: inherit;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 8px;
+  padding-left: 15px;
+  background-color: slateblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#todos_root .todos_header .categories .category_btns_container .select_header .selected_value_container:has(.selected_value_CheckBox:checked) ~ .options {
+  height: 150px;
+}
+#todos_root .todos_header .categories .category_btns_container .select_header .selected_value_container .selected_value_CheckBox {
+  width: 100%;
+  height: 35px;
+  appearance: none;
+  display: none;
+}
+#todos_root .todos_header .categories .category_btns_container .select_header .options {
+  top: 40px;
+  flex-direction: column;
+  width: inherit;
+  height: 0;
+  position: absolute;
+  left: 0;
+  overflow: auto;
+  display: flex;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+#todos_root .todos_header .categories .category_btns_container .select_header .options .option {
+  width: inherit;
+  height: 35px;
+}
+#todos_root .todos_header .categories .category_btns_container .select_header .options .option .categoryValue {
+  padding: 8px;
+  padding-left: 15px;
+  width: 100%;
+  height: 100%;
+  background-color: hotpink;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+#todos_root .todos_header .categories .category_btns_container .select_header .options .option .categoryValue:hover {
+  background-color: lightpink;
+  color: #4d4d4d;
+}
+#todos_root .todos_header .categories .category_btns_container .select_header .options .option .categoryValue.focused {
+  background-color: red;
+  color: white;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom {
+  width: 250px;
+  height: unset;
+  position: relative;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom .selected_value_container {
+  width: inherit;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 8px;
+  padding-left: 15px;
+  background-color: slateblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom .selected_value_container:has(.selected_value_CheckBox:checked) ~ .options {
+  height: 150px;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom .selected_value_container .selected_value_CheckBox {
+  width: 100%;
+  height: 35px;
+  appearance: none;
+  display: none;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom .options {
+  bottom: 40px;
+  flex-direction: column-reverse;
+  width: inherit;
+  height: 0;
+  position: absolute;
+  left: 0;
+  overflow: auto;
+  display: flex;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom .options .option {
+  width: inherit;
+  height: 35px;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom .options .option .categoryValue {
+  padding: 8px;
+  padding-left: 15px;
+  width: 100%;
+  height: 100%;
+  background-color: hotpink;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom .options .option .categoryValue:hover {
+  background-color: lightpink;
+  color: #4d4d4d;
+}
+#todos_root .todos_input_container .todos_input_inner .select_bottom .options .option .categoryValue.focused {
+  background-color: red;
+  color: white;
+}
+
+body, html {
+  font-family: "pretendard", "Noto Sans KR", sans-serif, arial;
+  font-size: 30px;
+  background-color: #F7EEDD;
+  color: #333333;
+}
+
+#todos_root {
+  width: 100%;
+  max-width: 1920px;
+  height: 100vh;
+  padding: 30px;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+#todos_root .todos_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+#todos_root .todos_header .todos_h1 {
+  height: 40px;
+}
+#todos_root .todos_header .categories {
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+#todos_root .todos_header .categories .input_category {
+  width: 100%;
+  height: 30px;
+}
+#todos_root .todos_header .categories .category_btns_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+#todos_root .todos_header .categories .category_btns_container .add_cate_btns {
+  height: 100%;
+  padding: 8px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: red;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+#todos_root .todos_main {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: calc(100% - 100px - 100px - 60px);
+}
+#todos_root .todos_main .todos_UL {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+#todos_root .todos_main .todos_UL .todos_list {
+  width: 100%;
+  min-height: 50px;
+  margin-top: 20px;
+  background-color: #ACE2E1;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 1.4rem;
+}
+#todos_root .todos_main .todos_UL .todos_list .list_number {
+  min-width: 50px;
+}
+#todos_root .todos_main .todos_UL .todos_list .list_category {
+  width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#todos_root .todos_main .todos_UL .todos_list .list_content {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#todos_root .todos_main .todos_UL .todos_list .list_time {
+  width: 0;
+  display: none;
+}
+#todos_root .todos_main .todos_UL .todos_list .list_btn {
+  width: 0;
+  display: none;
+}
+#todos_root .todos_main .todos_UL .todos_list.todos_list_headers {
+  margin-top: 0;
+  background-color: #008DDA;
+  color: #efefef;
+}
+#todos_root .todos_main .todos_UL .todos_list.todos_list_headers .list_category {
+  position: relative;
+  overflow: unset;
+  text-align: center;
+}
+#todos_root .todos_main .todos_UL .todos_list.todos_list_headers .list_category::before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: red;
+  left: -25px;
+}
+#todos_root .todos_main .todos_UL .todos_list.todos_list_headers .list_category::after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  transform: translateX(-50%);
+  background-color: red;
+  right: -25px;
+}
+#todos_root .todos_main .todos_UL .todos_list.todos_list_headers .list_content {
+  text-align: center;
+}
+#todos_root .todos_input_container {
+  width: 100vw;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+#todos_root .todos_input_container .addList_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-image: url("../image/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: #41C9E2;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  text-indent: -9999rem;
+}
+#todos_root .todos_input_container .todos_input_inner {
+  width: 100%;
+  height: calc(100% - 20px);
+  padding-left: 100px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+#todos_root .todos_input_container .todos_input_inner .todos_input_content_container {
+  flex: 1 0;
+  height: 50px;
+}
+#todos_root .todos_input_container .todos_input_inner .todos_input_content_container .todos_input_content {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+#todos_root .todos_input_container .todos_input_inner .todos_input_content_container .todos_input_content::placeholder {
+  color: #ccc;
+}
+#todos_root .todos_input_container .todos_input_inner .todos_input_time_container {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#todos_root .todos_input_container .todos_input_inner .todos_input_time_container input {
+  height: 23px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  body, html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body, html {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

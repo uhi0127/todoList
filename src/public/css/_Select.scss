@@ -1,0 +1,20 @@
+#todos_root{
+   & .todos_header{
+      & .categories{
+         & .category_btns_container{
+            & .select_header{
+               @include selectCategory("header");
+            }
+         }
+      }
+   }
+
+   & .todos_input_container{
+      & .todos_input_inner{
+         & .select_bottom{
+            @include selectCategory("bottom");
+            
+         }
+      }
+   }
+}

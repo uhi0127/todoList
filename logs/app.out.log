@@ -1,0 +1,1138 @@
+2024-07-25 05:13 +09:00: Connect OK
+2024-07-25 05:13 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 05:13 +09:00: ===================================
+2024-07-25 07:01 +09:00: Connect OK
+2024-07-25 07:01 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 07:01 +09:00: ===================================
+2024-07-25 09:39 +09:00: Connect OK
+2024-07-25 09:39 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 09:39 +09:00: ===================================
+2024-07-25 12:00 +09:00: Connect OK
+2024-07-25 12:00 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 12:00 +09:00: ===================================
+2024-07-25 12:16 +09:00: Connect OK
+2024-07-25 12:16 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 12:16 +09:00: ===================================
+2024-07-25 12:16 +09:00: Connect OK
+2024-07-25 12:16 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 12:16 +09:00: ===================================
+2024-07-25 12:16 +09:00: Connect OK
+2024-07-25 12:16 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 12:16 +09:00: ===================================
+2024-07-25 12:16 +09:00: Connect OK
+2024-07-25 12:16 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 12:16 +09:00: ===================================
+2024-07-25 12:16 +09:00: Connect OK
+2024-07-25 12:16 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 12:16 +09:00: ===================================
+2024-07-25 17:10 +09:00: Connect OK
+2024-07-25 17:10 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 17:10 +09:00: ===================================
+2024-07-25 22:33 +09:00: Connect OK
+2024-07-25 22:33 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-25 22:33 +09:00: ===================================
+2024-07-26 06:38 +09:00: 33134 포트 현재 실행중~~~
+2024-07-26 06:39 +09:00: 33134 포트 현재 실행중~~~
+2024-07-26 06:40 +09:00: Connect OK
+2024-07-26 06:40 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-26 06:40 +09:00: ===================================
+2024-07-26 08:52 +09:00: Connect OK
+2024-07-26 08:52 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-26 08:52 +09:00: ===================================
+2024-07-26 09:39 +09:00: Connect OK
+2024-07-26 09:39 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-26 09:39 +09:00: ===================================
+2024-07-26 12:12 +09:00: Connect OK
+2024-07-26 12:12 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-26 12:12 +09:00: ===================================
+2024-07-26 13:09 +09:00: Connect OK
+2024-07-26 13:09 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-26 13:09 +09:00: ===================================
+2024-07-26 22:06 +09:00: Connect OK
+2024-07-26 22:06 +09:00: Connect OK
+2024-07-26 22:06 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-26 22:06 +09:00: ===================================
+2024-07-26 22:06 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-26 22:06 +09:00: ===================================
+2024-07-26 22:15 +09:00: Connect OK
+2024-07-26 22:15 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    },
+    RowDataPacket {
+      id: 5,
+      category: 'ALL',
+      content: 'ss',
+      times_from: '2024-07-26',
+      times_to: '2024-08-02'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-26 22:15 +09:00: ===================================
+2024-07-27 21:22 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:22 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:24 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:24 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:24 +09:00: Connect OK
+2024-07-27 21:24 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    },
+    RowDataPacket {
+      id: 5,
+      category: 'ALL',
+      content: 'ss',
+      times_from: '2024-07-26',
+      times_to: '2024-08-02'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-27 21:24 +09:00: ===================================
+2024-07-27 21:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:25 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:26 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:27 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:28 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:28 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:31 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:31 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:33 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:33 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:34 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:34 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:36 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:36 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:37 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:37 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:39 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:39 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:40 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:40 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:41 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:42 +09:00: 33134 포트 현재 실행중~~~
+2024-07-27 21:42 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 11:29 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 11:29 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 11:30 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 11:30 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 11:31 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 11:31 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 11:57 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 11:57 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 16:54 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 16:54 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 16:56 +09:00: Connect OK
+2024-07-28 16:56 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    },
+    RowDataPacket {
+      id: 5,
+      category: 'ALL',
+      content: 'ss',
+      times_from: '2024-07-26',
+      times_to: '2024-08-02'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-28 16:56 +09:00: ===================================
+2024-07-28 16:58 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 16:58 +09:00: 33134 포트 현재 실행중~~~
+2024-07-28 17:01 +09:00: Connect OK
+2024-07-28 17:01 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    },
+    RowDataPacket {
+      id: 5,
+      category: 'ALL',
+      content: 'ss',
+      times_from: '2024-07-26',
+      times_to: '2024-08-02'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-28 17:01 +09:00: ===================================
+2024-07-28 17:50 +09:00: Connect OK
+2024-07-28 17:50 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    },
+    RowDataPacket {
+      id: 5,
+      category: 'ALL',
+      content: 'ss',
+      times_from: '2024-07-26',
+      times_to: '2024-08-02'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-28 17:50 +09:00: ===================================
+2024-07-28 18:27 +09:00: Connect OK
+2024-07-28 18:27 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    },
+    RowDataPacket {
+      id: 5,
+      category: 'ALL',
+      content: 'ss',
+      times_from: '2024-07-26',
+      times_to: '2024-08-02'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-28 18:27 +09:00: ===================================
+2024-07-28 20:46 +09:00: Connect OK
+2024-07-28 20:46 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    },
+    RowDataPacket {
+      id: 5,
+      category: 'ALL',
+      content: 'ss',
+      times_from: '2024-07-26',
+      times_to: '2024-08-02'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-28 20:46 +09:00: ===================================
+2024-07-29 17:53 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 17:53 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:11 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:11 +09:00: Connect OK
+2024-07-29 18:11 +09:00: {
+  contents: [
+    RowDataPacket {
+      id: 1,
+      category: 'All',
+      content: 'test1',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 2,
+      category: 'All',
+      content: 'test2',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 3,
+      category: 'All',
+      content: 'test3',
+      times_from: '2024-07-22',
+      times_to: '2024-07-31'
+    },
+    RowDataPacket {
+      id: 4,
+      category: 'dddf',
+      content: 'sdsd',
+      times_from: '2024-07-23',
+      times_to: '2024-07-30'
+    },
+    RowDataPacket {
+      id: 5,
+      category: 'ALL',
+      content: 'ss',
+      times_from: '2024-07-26',
+      times_to: '2024-08-02'
+    }
+  ],
+  category: [
+    RowDataPacket { id: 1, category: 'ㄴㄴㄴㄴㄴ' },
+    RowDataPacket { id: 2, category: '1111' },
+    RowDataPacket { id: 3, category: 'dddf' }
+  ]
+}
+2024-07-29 18:11 +09:00: ===================================
+2024-07-29 18:11 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:12 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:13 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:14 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:15 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:16 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:16 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:17 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:18 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:19 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:20 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:56 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:56 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:57 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:57 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:58 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:58 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:59 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:59 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:59 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 18:59 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 19:00 +09:00: 33134 포트 현재 실행중~~~
+2024-07-29 19:00 +09:00: 33134 포트 현재 실행중~~~
